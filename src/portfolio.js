@@ -325,8 +325,6 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  podcastSection,
   contactInfo,
-  twitterDetails,
   isHireable
 };
