@@ -28,6 +28,13 @@ export default function Greeting() {
                 {greeting.title}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
+              <div>
+                <img
+                    alt="Headshot"
+                    src={require('../../assets/images/headshot.jpg')}
+                    className="greeting-image-container small-circular-image"
+                  ></img>
+              </div>
               <p
                 className={
                   isDark
