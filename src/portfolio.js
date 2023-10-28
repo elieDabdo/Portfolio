@@ -107,23 +107,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "McGill University",
+      logo: require("./assets/images/mcgill_logo.jpg"),
+      subHeader: "Bachelor of Computer Engineering, Minor in Artificial Intelligence",
+      duration: "September 2020 - Current",
+      desc: "CGPA: 3.7/4.0",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Lycée Louis Massignon",
+      logo: require("./assets/images/llm.jpg"),
+      subHeader: "Baccalauréat Français, Filière S",
+      duration: "September 2017 - July 2020",
+      desc: "Grade 18.3/20, Felicitation du Jury",
     }
   ]
 };
@@ -131,7 +126,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -155,29 +150,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "Trolley",
+      companylogo: require("./assets/images/trolley_logo.jpg"),
+      date: "May 2023 – August 2023",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Implemented multiple new API endpoints and BE features based on specifications and requirements from product managers/ clients.",
+        "Implemented a webhook sending services to alert customers about updates to data.",
+        "Integrated the Platform/Tax developer teams and participated in regular sprints attending stand-ups, grooming, retrospectives and sprint planning sessions."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Project Manager",
+      company: "McGill Robotics",
+      companylogo: require("./assets/images/mcgill_robotics.jpg"),
+      date: "September 2022 – Present",
+      descBullets: [
+        "Implemented computer vision for underwater object detection using YOLOv8 model.",
+        "Created PID packages to improve controls and stability in movement of the robot.",
+        "Defined overall vision of the new mechanical design of the AUV.",
+        "Organized team meetings, recruitment of new members and budgeting."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Technical Engineer",
+      company: "The Cube Labs",
+      companylogo: require("./assets/images/cube_lab.jpg"),
+      date: "September 2022 – Present",
+      descBullets: [
+        "Slice and format CAD models using Cura and FormLabs to satisfy customers’ requirements and deliver high-quality 3D prints.",
+      ]
     }
   ]
 };
