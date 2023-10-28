@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import cool_guitare from "../../assets/lottie/cool_guitare";
+import cube from "../../assets/lottie/cube";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -59,7 +59,7 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={cool_guitare} />
+              <DisplayLottie animationData={cube} />
             ) : (
               <img
                 alt="man sitting on table"
