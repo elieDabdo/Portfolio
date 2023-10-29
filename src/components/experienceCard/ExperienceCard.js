@@ -17,6 +17,14 @@ export default function ExperienceCard({cardInfo, isDark}) {
       : "rgb(" + values.join(", ") + ")";
   }
 
+  function TextWithLink({link}) {
+    return (
+      <div>
+        <p>Check it out <a href={link} target="_blank" rel="noopener noreferrer">here</a>.</p>
+      </div>
+    );
+  }
+
   const GetDescBullets = ({descBullets, isDark}) => {
     return descBullets
       ? descBullets.map((item, i) => (
@@ -78,6 +86,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+        <div className="experience-text-details">
+        {cardInfo.rlink ? <TextWithLink link={cardInfo.rlink} /> : null}
+      </div>
       </div>
     </div>
   );

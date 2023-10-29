@@ -154,6 +154,7 @@ const workExperiences = {
       company: "Trolley",
       companylogo: require("./assets/images/trolley_logo.jpg"),
       date: "May 2023 – August 2023",
+      rlink: "https://trolley.com/",
       descBullets: [
         "Implemented multiple new API endpoints and BE features based on specifications and requirements from product managers/ clients.",
         "Implemented a webhook sending services to alert customers about updates to data.",
@@ -165,12 +166,13 @@ const workExperiences = {
       company: "McGill Robotics",
       companylogo: require("./assets/images/mcgill_robotics.jpg"),
       date: "September 2022 – Present",
+      rlink: "https://mcgillrobotics.com/",
       descBullets: [
         "Implemented computer vision for underwater object detection using YOLOv8 model.",
         "Created PID packages to improve controls and stability in movement of the robot.",
         "Defined overall vision of the new mechanical design of the AUV.",
         "Organized team meetings, recruitment of new members and budgeting."
-      ]
+      ],
     },
     {
       role: "Technical Engineer",
@@ -188,8 +190,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -289,9 +291,9 @@ const achievementSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Want to chat?",
+  number: "+514 887-8855",
+  email_address: "elie.ad@outlook.com"
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
