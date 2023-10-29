@@ -232,54 +232,42 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements and Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "RoboSub 2023 Semi-Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "RoboSub is an international student competition. Student teams from around the world design and build robotic submarines, otherwise known as AUV - August 2023.",
+      image: require("./assets/images/robosub.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Check it out",
+          url: "https://robosub.org/programs/2023/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "1st Place Robohacks 2023",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "RoboHacks is a student competition where the goal is to develop a simplistic robot in 24 hours - March 2023.",
+      image: require("./assets/images/robohacks.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Check it out",
+          url: "https://www.facebook.com/robohacks/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Top 5 McHacks 2023",
+      subtitle: "For 24 hours, over 500 of the boldest young minds across the globe come together for a jam-packed online weekend of beginner-to-pro workshops, networking, and epic hacking - January 2023.",
+      image: require("./assets/images/mchacks.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Check it out",
+          url: "https://mchacks10.devpost.com/"
         }
       ]
     }
