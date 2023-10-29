@@ -198,28 +198,27 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some projects I worked on individually and with friends",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/rate.png"),
+      projectName: "Rate My Fit",
+      projectDesc: "Rate My Fit uses computer vision to rate people's outfits based on color coordination, mood/aesthetic, appropriateness for the current weather, and the combination of complementary textures",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Check out the github",
+          url: "https://github.com/elieDabdo/McHacks2023"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/melo.png"),
+      projectName: "Melo-Gen",
+      projectDesc: "Melo-Gen is powered by a Recurrent Neural Network model that generates notes in sequences, thus creating melodies. The user interface features intuitive controls, including play, pause, and navigation buttons, and allows users to interact with the AI by inputting notes to start of the melodies to be generated.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Check out the Dev Post",
+          url: "https://devpost.com/software/melogen-hj083w"
         }
       ]
     }
