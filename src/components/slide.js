@@ -24,28 +24,22 @@ const SlideShow = () => {
         <div className="main-slide">
         <Slide>
             <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[0]})` }}>
-                </div>
+                <div className="image-container" style={{ backgroundImage: `url(${images[0]})`, backgroundSize: 'cover' }}></div>
             </div>
             <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[1]})` }}>
-                </div>
+                <div className="image-container" style={{ backgroundImage: `url(${images[1]})`, backgroundSize: 'cover' }}></div>
             </div>
             <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[2]})` }}>
-                </div>
+                <div className="image-container" style={{ backgroundImage: `url(${images[2]})`, backgroundSize: 'cover' }}></div>
             </div>
             <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[3]})` }}>
-                </div>
+                <div className="image-container" style={{ backgroundImage: `url(${images[3]})`, backgroundSize: 'cover' }}></div>
             </div>
             <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[4]})` }}>
-                </div>
+                < div className="image-container" style={{ backgroundImage: `url(${images[4]})`, backgroundSize: 'cover' }}></div>
             </div>
             <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[5]})` }}>
-                </div>
+                <div className="image-container" style={{ backgroundImage: `url(${images[5]})`, backgroundSize: 'cover' }}></div>
             </div>
         </Slide>
         </div>
