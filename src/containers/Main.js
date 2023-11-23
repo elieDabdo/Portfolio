@@ -16,6 +16,7 @@ import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import Footer from "../components/footer/Footer";
 import "./Main.scss";
+import SlideShow from "../components/slide";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -55,6 +56,7 @@ const Main = () => {
             <Projects />
             <StartupProject />
             <Achievement />
+            <SlideShow />
             <Profile />
             <Footer />
             <ScrollToTopButton />
