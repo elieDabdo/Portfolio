@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5fcc19ad.css",
-    "main.js": "/Portfolio/static/js/main.53ff64e8.js",
+    "main.js": "/Portfolio/static/js/main.e5d9fee0.js",
     "static/css/64.bba8fa55.chunk.css": "/Portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.41912c0a.chunk.js": "/Portfolio/static/js/64.41912c0a.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -16,6 +16,8 @@
     "static/media/llm.jpg": "/Portfolio/static/media/llm.1cca9d9badc46b67ff0f.jpg",
     "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/melo.png": "/Portfolio/static/media/melo.247b6413a071178cc73b.png",
+    "static/media/mais.jpg": "/Portfolio/static/media/mais.4f4c3df6cc1a0b9960e7.jpg",
+    "static/media/my_trainer.png": "/Portfolio/static/media/my_trainer.81fe74b0628dbfb2afdb.png",
     "static/media/Agustina.woff": "/Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/mcgill_logo.jpg": "/Portfolio/static/media/mcgill_logo.4746b5596530e9a65288.jpg",
     "static/media/manOnTable.svg": "/Portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -27,7 +29,7 @@
     "static/media/skill.svg": "/Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/Portfolio/index.html",
     "main.5fcc19ad.css.map": "/Portfolio/static/css/main.5fcc19ad.css.map",
-    "main.53ff64e8.js.map": "/Portfolio/static/js/main.53ff64e8.js.map",
+    "main.e5d9fee0.js.map": "/Portfolio/static/js/main.e5d9fee0.js.map",
     "64.bba8fa55.chunk.css.map": "/Portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.41912c0a.chunk.js.map": "/Portfolio/static/js/64.41912c0a.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -35,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.5fcc19ad.css",
-    "static/js/main.53ff64e8.js"
+    "static/js/main.e5d9fee0.js"
   ]
 }
