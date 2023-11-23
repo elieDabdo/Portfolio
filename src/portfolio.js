@@ -201,12 +201,27 @@ const bigProjects = {
   subtitle: "Some projects I worked on individually and with friends",
   projects: [
     {
+      image: require("./assets/images/my_trainer.png"),
+      projectName: "My Trainer",
+      projectDesc: "My Trainer helps you follow along training videos by using computer vision to superpose your skeleton on the trainer's skeleton. It tells the user if their joints' positions are right/wrong according to the training video, so that they can adjust their movements.",
+      footerLink: [
+        {
+          name: "Check out the Website",
+          url: "https://eliedabdo.github.io/CodeJam/"
+        }, 
+        {
+          name: "Check out the Github",
+          url: "https://github.com/elieDabdo/CodeJam"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/rate.png"),
       projectName: "Rate My Fit",
       projectDesc: "Rate My Fit uses computer vision to rate people's outfits based on color coordination, mood/aesthetic, appropriateness for the current weather, and the combination of complementary textures",
       footerLink: [
         {
-          name: "Check out the github",
+          name: "Check out the Github",
           url: "https://github.com/elieDabdo/McHacks2023"
         }
       ]
@@ -236,18 +251,6 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "RoboSub 2023 Semi-Finalist",
-      subtitle:
-        "RoboSub is an international student competition. Student teams from around the world design and build robotic submarines, otherwise known as AUV - August 2023.",
-      image: require("./assets/images/robosub.png"),
-      footerLink: [
-        {
-          name: "Check it out",
-          url: "https://robosub.org/programs/2023/"
-        }
-      ]
-    },
-    {
       title: "1st Place Robohacks 2023",
       subtitle:
         "RoboHacks is a student competition where the goal is to develop a simplistic robot in 24 hours - March 2023.",
@@ -259,10 +262,34 @@ const achievementSection = {
         }
       ]
     },
+    {
+      title: "2nd Place MAIS Hacks 2023",
+      subtitle:
+        "MAIS Hacks is a hackathon run by McGill Artificial Intelligence Society - October 2023.",
+      image: require("./assets/images/mais.jpg"),
+      footerLink: [
+        {
+          name: "Check it out",
+          url: "https://maishacks.com/"
+        }
+      ]
+    },
+    {
+      title: "RoboSub 2023 Semi-Finalist",
+      subtitle:
+        "RoboSub is an international student competition. Student teams from around the world design and build robotic submarines, otherwise known as AUV - August 2023.",
+      image: require("./assets/images/robosub.png"),
+      footerLink: [
+        {
+          name: "Check it out",
+          url: "https://robosub.org/programs/2023/"
+        }
+      ]
+    },
 
     {
       title: "Top 5 McHacks 2023",
-      subtitle: "For 24 hours, over 500 of the boldest young minds across the globe come together for a jam-packed online weekend of beginner-to-pro workshops, networking, and epic hacking - January 2023.",
+      subtitle: "For 24 hours, over 500 of the boldest young minds across the globe come together for a jam-packed weekend of epic hacking - January 2023.",
       image: require("./assets/images/mchacks.png"),
       footerLink: [
         {
