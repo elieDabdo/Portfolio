@@ -22,6 +22,7 @@ const SlideShow = () => {
 
     return (
         <div className="main-slide">
+            <h1 className="education-heading">Check out my time at RoboSub 2023 with the team!</h1>
         <Slide>
             <div className="each-slide-effect">
                 <div className="image-container" style={{ backgroundImage: `url(${images[0]})`, backgroundSize: 'cover' }}></div>

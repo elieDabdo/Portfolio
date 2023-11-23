@@ -36,3 +36,8 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.education-heading {
+  font-size: 40px;
+  font-weight: 400;
+}
