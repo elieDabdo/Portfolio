@@ -34,6 +34,7 @@ const SlideShow = (props) => {
   
     return (
         <div className="main-slide">
+            <h1 className="education-heading">Check out my time at RoboSub 2023 with the team! </h1>
       <Carousel
         swipeable={false}
         draggable={false}
