@@ -19,7 +19,8 @@
     background-repeat: no-repeat;
 }
 
-.education-heading {
+.ed-heading {
   font-size: 40px;
   font-weight: 400;
+  margin-bottom: 3%;
 }

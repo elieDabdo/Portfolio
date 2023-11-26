@@ -14,6 +14,8 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const borderStyle = isDark ? 'small-circular-image-dark' : 'small-circular-image-light';
+  const greetingImageContainerClass = 'greeting-image-container'
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -34,7 +36,7 @@ export default function Greeting() {
                 <img
                     alt="Headshot"
                     src={require('../../assets/images/headshot.jpg')}
-                    className="greeting-image-container small-circular-image"
+                    className={`${greetingImageContainerClass} ${borderStyle}`}
                   ></img>
               </div>
               <p
@@ -53,7 +55,9 @@ export default function Greeting() {
                 }}
               />
               </p>
+              <div className="space-b">
               <SocialMedia />
+              </div>
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (

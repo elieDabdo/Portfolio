@@ -45,7 +45,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I enjoy doing",
-  subTitle: "__________________________________________________________________________ ",
+  subTitle: "AND SOME COOL TECH I LOVE USING",
   skills: [
     emoji(
       "👉 Proficient in developing full-stack web applications that prioritize user satisfaction, from elegant front-end interfaces to robust back-end functionality."
@@ -198,7 +198,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Some projects I worked on individually and with friends",
+  subtitle: "SOME PROJECTS I WORKED ON INDIVIDUALLY AND WITH FRIENDS",
   projects: [
     {
       image: require("./assets/images/my_trainer.png"),

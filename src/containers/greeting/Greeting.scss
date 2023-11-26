@@ -21,10 +21,21 @@
   margin: 0 auto; 
 }
 
-.small-circular-image {
-  width: 30%; 
+.small-circular-image-dark {
+  width: 25%; 
   height: 30%; 
+  border: 3px solid #ffffff;
   object-fit: cover; 
+}
+.small-circular-image-light {
+  width: 25%; 
+  height: 30%; 
+  border: 3px solid #000000;
+  object-fit: cover; 
+}
+
+.space-b {
+  margin-top: 5%;
 }
 
 .greeting-main {
