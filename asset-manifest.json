@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.022db0ff.css",
+    "main.css": "/Portfolio/static/css/main.a51e17cc.css",
     "main.js": "/Portfolio/static/js/main.110e063b.js",
     "static/css/64.bba8fa55.chunk.css": "/Portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.41912c0a.chunk.js": "/Portfolio/static/js/64.41912c0a.chunk.js",
@@ -31,7 +31,7 @@
     "static/media/skill.svg": "/Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Portfolio/index.html",
-    "main.022db0ff.css.map": "/Portfolio/static/css/main.022db0ff.css.map",
+    "main.a51e17cc.css.map": "/Portfolio/static/css/main.a51e17cc.css.map",
     "main.110e063b.js.map": "/Portfolio/static/js/main.110e063b.js.map",
     "64.bba8fa55.chunk.css.map": "/Portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.41912c0a.chunk.js.map": "/Portfolio/static/js/64.41912c0a.chunk.js.map",
@@ -39,7 +39,7 @@
     "769.6b18baac.chunk.js.map": "/Portfolio/static/js/769.6b18baac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.022db0ff.css",
+    "static/css/main.a51e17cc.css",
     "static/js/main.110e063b.js"
   ]
 }
