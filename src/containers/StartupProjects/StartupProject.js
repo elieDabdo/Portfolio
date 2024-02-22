@@ -3,6 +3,7 @@ import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import im1 from "../../assets/robosub/auv_sim.png";
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -87,6 +88,25 @@ export default function StartupProject() {
               );
             })}
           </div>
+          <div style={{  marginTop: '150px' }}>
+          <h1 className="skills-heading">{"Autonomous Underwater Vehicle Simulation"}</h1>
+          <p
+            className={
+              isDark
+                ? "dark-mode project-subtitle"
+                : "subTitle project-subtitle"
+            }
+          >
+            {"Click the image below to view the realistic simulation I built for the AUV!"}
+          </p>
+          <a href={"https://eliedabdo.github.io/AUV_sim_web/"} target="_blank" rel="noopener noreferrer">
+          <img
+            src={im1}
+            alt={"AUV Simulation"}
+            style={{ width: '100%', maxWidth: '600px', height: 'auto' }}
+          />
+          </a>
+        </div>
         </div>
       </div>
     </Fade>
