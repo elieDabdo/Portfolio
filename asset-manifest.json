@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a51e17cc.css",
-    "main.js": "/Portfolio/static/js/main.110e063b.js",
+    "main.js": "/Portfolio/static/js/main.79a7b693.js",
     "static/css/64.bba8fa55.chunk.css": "/Portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.41912c0a.chunk.js": "/Portfolio/static/js/64.41912c0a.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -10,6 +10,7 @@
     "static/media/im3.jpg": "/Portfolio/static/media/im3.de28c6a1816a1225a26b.jpg",
     "static/media/im5.jpg": "/Portfolio/static/media/im5.03eca9adb41c7a8dddee.jpg",
     "static/media/im6.jpg": "/Portfolio/static/media/im6.78c16bc70246cdc5a9c7.jpg",
+    "static/media/auv_sim.png": "/Portfolio/static/media/auv_sim.887834bc5a7de3a21315.png",
     "static/media/im4.jpg": "/Portfolio/static/media/im4.7a5062b6c318bbbf3cf8.jpg",
     "static/media/im2.jpg": "/Portfolio/static/media/im2.37719b344453eb3d1a5a.jpg",
     "static/media/headshot.jpg": "/Portfolio/static/media/headshot.9339ba7c91219837fafd.jpg",
@@ -32,7 +33,7 @@
     "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Portfolio/index.html",
     "main.a51e17cc.css.map": "/Portfolio/static/css/main.a51e17cc.css.map",
-    "main.110e063b.js.map": "/Portfolio/static/js/main.110e063b.js.map",
+    "main.79a7b693.js.map": "/Portfolio/static/js/main.79a7b693.js.map",
     "64.bba8fa55.chunk.css.map": "/Portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.41912c0a.chunk.js.map": "/Portfolio/static/js/64.41912c0a.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -40,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.a51e17cc.css",
-    "static/js/main.110e063b.js"
+    "static/js/main.79a7b693.js"
   ]
 }
